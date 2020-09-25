@@ -82,6 +82,61 @@ $ sbatch hello_python.slurm
 
 以下为一些软件的具体安装步骤：
 
+## CLEVER 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda clever-toolkit
+```
+
+## BreakDancer 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy
+source activate mypy
+conda install -c bioconda breakdancer
+```
+
+## BICseq2 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy
+source activate mypy
+conda install -c bioconda bicseq2-norm
+```
+
+## BatVI 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy
+source activate mypy
+conda install -c bioconda batvi
+```
+
+## BASIL-ANISE 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy
+source activate mypy
+conda install -c bioconda anise_basil
+```
+
 ## openslide-python 安装
 
 完整步骤
