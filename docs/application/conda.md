@@ -1,7 +1,8 @@
 # <center>用 Conda 安装生信软件</center>
 ------------
 本文档介绍使用 Conda 在个人目录中安装生物信息类应用软件。
-
+- [BatVI](#BatVI)
+- [BASIL-ANISE](#BASIL-ANISE)
 - [openslide](#openslide-python)
 - [pandas](#pandas)
 - [cdsapi](#cdsapi)
