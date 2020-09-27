@@ -82,6 +82,66 @@ $ sbatch hello_python.slurm
 
 以下为一些软件的具体安装步骤：
 
+## ERDS 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda erds
+```
+
+## DELLY 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda delly
+```
+
+## CREST 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda blat
+conda install -c bioconda cap3
+conda install -c bioconda samtools
+conda install -c bioconda perl-bioperl
+conda install -c bioconda perl-bio-db-sam
+conda install -c imperial-college-research-computing crest
+```
+
+## Control-FREEC 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda control-freec
+```
+
+## CNVnator 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda -c conda-forge cnvnator
+```
+
 ## CLEVER 安装
 
 完整步骤
