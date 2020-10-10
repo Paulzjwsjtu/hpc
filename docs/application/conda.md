@@ -1,6 +1,11 @@
 # <center>用 Conda 安装生信软件</center>
 ------------
 本文档介绍使用 Conda 在个人目录中安装生物信息类应用软件。
+- [Hydra-sv](#Hydra-sv)
+- [VariationHunter](#VariationHunter)
+- [GRIDSS](#GRIDSS)
+- [GenomeSTRiP](#GenomeSTRiP)
+- [FermiKit](#FermiKit)
 - [ERDS](#ERDS)
 - [DELLY](#DELLY)
 - [CREST](#CREST)
@@ -90,6 +95,61 @@ $ sbatch hello_python.slurm
 [https://anaconda.org/bioconda](https://anaconda.org/bioconda)
 
 以下为一些软件的具体安装步骤：
+
+## Hydra-sv 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c conda-forge hydra
+```
+
+## VariationHunter 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda tardis
+```
+
+## GRIDSS 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda gridss
+```
+
+## GenomeSTRiP 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda genomestrip
+```
+
+## FermiKit 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda fermikit
+```
 
 ## ERDS 安装
 
