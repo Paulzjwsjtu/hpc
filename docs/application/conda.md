@@ -96,6 +96,39 @@ $ sbatch hello_python.slurm
 
 以下为一些软件的具体安装步骤：
 
+## MELT 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda melt
+```
+
+## Manta 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda manta
+```
+
+## Lumpy 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda lumpy-sv
+```
+
 ## Hydra-sv 安装
 
 完整步骤
