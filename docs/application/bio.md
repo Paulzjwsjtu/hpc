@@ -1,12 +1,24 @@
+<table>
+    <tr>
+        <td>MELT</td><td>Manta</td><td>Lumpy</td><td>Hydra-sv</td>
+    </tr>    
+     <tr>
+        <td>VariationHunter</td><td>GRIDSS</td><td>GenomeSTRiP</td><td>FermiKit</td>
+    </tr>
+     <tr>
+        <td>ERDS</td><td>DELLY</td><td>CREST</td><td>Control-FREEC</td>
+    </tr>
+     <tr>
+        <td>CNVnator</td><td>CLEVER</td><td>BreakDancer</td><td>BICseq2</td>
+    </tr>
+     <tr>
+        <td>BatVI</td><td>BASIL-ANISE</td><td>MetaSV</td><td>MindTheGap</td>
+    </tr>
+     <tr>
+        <td>Mobster</td><td>pbsv</td><td>Pindel</td><td>PRISM</td>
+    </tr>
+</table>
 
-|First Column   |Second Column   |Third Column   |Forth Column   |
-|---------------|----------------|---------------|---------------|
-|MELT           |Manta           |Lumpy          |Hydra-sv       |
-|VariationHunter|GRIDSS          |GenomeSTRiP    |FermiKit       |
-|ERDS           |DELLY           |CREST          |Control-FREEC  |
-|CNVnator       |CLEVER          |BreakDancer    |BICseq2        |
-|BatVI          |BASIL-ANISE     |MetaSV         |MindTheGap     |
-|Mobster        |pbsv            |Pindel         |PRISM          |
 
 ## MELT 安装
 
