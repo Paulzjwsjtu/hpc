@@ -1,4 +1,12 @@
 
+|First Column   |Second Column   |Third Column   |Forth Column   |
+|---------------|----------------|---------------|---------------|
+|MELT           |Manta           |Lumpy          |Hydra-sv       |
+|VariationHunter|GRIDSS          |GenomeSTRiP    |FermiKit       |
+|ERDS           |DELLY           |CREST          |Control-FREEC  |
+|CNVnator       |CLEVER          |BreakDancer    |BICseq2        |
+|BatVI          |BASIL-ANISE     |MetaSV         |MindTheGap     |
+|Mobster        |pbsv            |Pindel         |PRISM          |
 
 ## MELT 安装
 
@@ -201,4 +209,70 @@ module load miniconda3
 conda create -n mypy
 source activate mypy
 conda install -c bioconda anise_basil
+```
+
+## MetaSV 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda metasv
+```
+
+## MindTheGap 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda mindthegap
+```
+
+## Mobster 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda mobster
+```
+
+## pbsv 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda pbsv
+```
+
+## Pindel 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c bioconda pindel
+```
+
+## PRISM 安装
+
+完整步骤
+```bash
+module purge
+module load miniconda3
+conda create -n mypy_py27 python=2.7
+source activate mypy_py27
+conda install -c conda-forge pyprism
 ```
